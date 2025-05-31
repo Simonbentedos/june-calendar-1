@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { X, Clock, User, Calendar, Edit } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import { formatDate, formatEventTimeRange } from "../../lib/date-utils"
 
 export default function EventPreview({ event, position, onClose, onEdit }) {

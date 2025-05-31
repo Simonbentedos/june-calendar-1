@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import AuthPage from "./components/auth/AuthPage"
-import Calendar from "@/components/calendar/Calendar"
+import Calendar from "@/components/Calendar"
 import { supabase } from "./lib/supabase"
 import { ROUTES } from "./lib/navigation"
 

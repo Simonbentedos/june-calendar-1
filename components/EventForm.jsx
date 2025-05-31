@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { Textarea } from "./ui/textarea"
 import { X, Clock, Menu } from "lucide-react"
 import { supabase } from "../../lib/supabase"
 

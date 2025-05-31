@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "../../ui/button"
 import { Plus, Search, Menu } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "../../ui/avatar"
 import LogoutDropdown from "./LogoutDropdown"
