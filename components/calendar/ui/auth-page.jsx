@@ -1,10 +1,8 @@
-"use client"
-
-import { useState } from "react"
+import React, { useState } from "react"
 import { Button } from "../../ui/button"
 import { Input } from "../../ui/input"
 import { Eye, EyeOff, CheckCircle } from "lucide-react"
-import { supabase } from "../lib/supabase"
+import { supabase } from "../../lib/supabase.js"
 
 export default function AuthPage({ onLogin }) {
   const [isSignUp, setIsSignUp] = useState(true)

@@ -1,5 +1,6 @@
 "use client"
 
+import React from "react"
 import { formatEventTimeRange } from "../../../lib/date-utils"
 import { timeToMinutes } from "../../../lib/date-utils"
 

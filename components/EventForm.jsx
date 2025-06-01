@@ -1,11 +1,9 @@
-"use client"
-
-import { useState } from "react"
+import React, { useState } from "react"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
 import { X, Clock, Menu } from "lucide-react"
-import { supabase } from "../../lib/supabase"
+import { supabase } from "../../lib/supabase.js"
 
 const eventColors = [
 	{
